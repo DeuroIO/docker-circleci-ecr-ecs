@@ -14,6 +14,7 @@ gulp.task('lint', function() {
     .pipe(eslint.failAfterError());
 });
 
+
 gulp.task('watch_app', function() {
   nodemon({
     verbose : true,
